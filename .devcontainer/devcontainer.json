@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "oxc.oxc-vscode"
+      ]
+    }
+  },
+  "postStartCommand": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 yarn"
+}
