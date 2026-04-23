@@ -2,10 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "oxc.oxc-vscode",
-        "github.vscode-github-actions"
-      ]
+      "extensions": ["oxc.oxc-vscode", "github.vscode-github-actions"]
     }
   },
   "postStartCommand": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 yarn"
