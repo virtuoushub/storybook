@@ -5,5 +5,9 @@
       "extensions": ["oxc.oxc-vscode", "github.vscode-github-actions"]
     }
   },
-  "postStartCommand": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 yarn"
+  "portsAttributes": {
+    "6006": {
+      "label": "storybook dev"
+    }
+  }
 }
